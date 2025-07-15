@@ -1,0 +1,11 @@
+[package]
+name = "corex_sniper_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+solana-client = "1.14.11"
+serde = { version = "1.0", features = ["derive"] }
+dotenv = "0.15"
+log = "0.4"
